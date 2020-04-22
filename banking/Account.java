@@ -11,10 +11,17 @@ public class Account {
   public double getBalance() {
     return balance;
   }
-  public void deposit(double amount) {
+  public boolean deposit(double amount) {
     balance = balance + amount;
+    return true;
   }
-  public void withdraw(double amount) {
-    balance = balance - amount;
+  public boolean withdraw(double amount) {
+    boolean result = true;
+    if ( balance < amount ) {
+      result = false;
+    } else {
+      balance = balance - amount;
+    }
+    return result;
   }
 }
