@@ -1,0 +1,2 @@
+# PakietBankowy_ProgramowanieObiektowe
+repozytorium rozwijane na potrzeby ćwiczeń z Programowania Obiektowego
