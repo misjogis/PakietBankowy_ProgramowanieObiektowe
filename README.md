@@ -21,4 +21,6 @@ UWAGA: to zadanie było i będzie sukcesywnie rozwijane podczas kolejnych ćwicz
 
 * Podzadanie 4.2 – Wykorzystanie kolekcji do realizacji zależności 1 do wielu
 
+*UWAGA: tu jednak stosujemy ArrayList, bo jakikolwiek Set nie pozwala nam na numerację klientów, czy też kont*
+
 Kolejne commity będą zgodne z tymi zadaniami
