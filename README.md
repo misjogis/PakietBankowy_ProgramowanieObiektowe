@@ -11,3 +11,14 @@ UWAGA: to zadanie będzie sukcesywnie rozwijane podczas kolejnych ćwiczeń, zac
 * Podzadanie 3.3 – Rozbudowa klasy Konto
 
 Kolejne commity będą zgodne z tymi zadaniami
+
+## Dalej na laboratotium 5, 25-26 kwietnia 2020
+
+### Zadanie 4 – Rozwój pakietu symulującego prace banku
+UWAGA: to zadanie było i będzie sukcesywnie rozwijane podczas kolejnych ćwiczeń.
+
+* Podzadanie 4.1 – Wykorzystanie tablic do reprezentowania zależności 1 do wielu
+
+* Podzadanie 4.2 – Wykorzystanie kolekcji do realizacji zależności 1 do wielu
+
+Kolejne commity będą zgodne z tymi zadaniami
