@@ -2,7 +2,7 @@ package banking;
 
 public class Account {
 
-  private double   balance;
+  protected double   balance;
 
   public Account(double bal) {
     balance = bal;

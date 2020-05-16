@@ -1,10 +1,15 @@
 package banking;
 
+import java.util.*;
+
 public class Customer {
 
-  private Account  account;
+  // Data Attributes
   private String   firstName;
   private String   lastName;
+  // Association Attributes
+  private ArrayList<Account> accounts = new ArrayList<Account>();
+ 
 
   public Customer(String f, String l) {
     firstName = f;
@@ -17,10 +22,13 @@ public class Customer {
   public String getLastName() {
     return lastName;
   }
-  public Account getAccount() {
-    return account;
+  public void addAccount(Account acct) {
+    accounts.add(acct);
   }
-  public void setAccount(Account acct) {
-    account = acct;
+  public Account getAccount(int account_index) {
+    return accounts.get(account_index);
+  }
+  public int getNumOfAccounts() {
+    return accounts.size();
   }
 }

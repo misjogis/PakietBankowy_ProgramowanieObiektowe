@@ -1,25 +1,23 @@
 package banking;
 
+import java.util.*;
+
 public class Bank {
-  private static int MAX_CUSTOMERS = 10;
-
-  private Customer[] customers;
-  private int        numberOfCustomers;
-
+  
+  private ArrayList<Customer> customers;
+  
   public Bank() {
-    customers = new Customer[MAX_CUSTOMERS];
-    numberOfCustomers = 0;
+    customers = new ArrayList<Customer>();
   }
 
   public void addCustomer(String f, String l) {
-    int i = numberOfCustomers++;
-    customers[i] = new Customer(f, l);
+    customers.add(new Customer(f, l));
   }
   public Customer getCustomer(int customer_index) {
-    return customers[customer_index];
+    return customers.get(customer_index);
   }
   public int getNumOfCustomers() {
-    return numberOfCustomers;
+    return customers.size();
   }
 }
 
