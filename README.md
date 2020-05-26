@@ -24,3 +24,19 @@ UWAGA: to zadanie było i będzie sukcesywnie rozwijane podczas kolejnych ćwicz
 *UWAGA: tu jednak stosujemy ArrayList, bo jakikolwiek Set nie pozwala nam na numerację klientów, czy też kont*
 
 Kolejne commity będą zgodne z tymi zadaniami
+
+## Duże zmiany ilustrujące różne mechanizmy - do analizy podczas laboratotium 7, 30-31 maja 2020
+
+* Wprowadzono dzidziczenie w postaci nowych rodzajów kont
+
+* Wprowadzono wyjątki w postaci wyjątku zabezpieczającego wypłątę ponad saldo
+
+* Zmieniono pokietyzację, pojawiłsię nowy pakiet odpowiedzialny za raporty, klasy związane czysto z bankiem zostały przeniesione do pakietu **domain**
+
+* Wprowadzono wzorzec projektowy **Singleton**
+
+
+
+Kolejne commity będą zgodne z tymi zadaniami
+
+
