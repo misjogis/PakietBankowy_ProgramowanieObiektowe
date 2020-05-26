@@ -33,10 +33,4 @@ Kolejne commity będą zgodne z tymi zadaniami
 
 * Zmieniono pokietyzację, pojawiłsię nowy pakiet odpowiedzialny za raporty, klasy związane czysto z bankiem zostały przeniesione do pakietu **domain**
 
-* Wprowadzono wzorzec projektowy **Singleton**
-
-
-
-Kolejne commity będą zgodne z tymi zadaniami
-
-
+* Wprowadzono wzorzec projektowy **Singleton** - klasa **Bank** jest Singletonem, można ją utworzyć tylko raz.
